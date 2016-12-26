@@ -12,7 +12,7 @@
     'use strict';
     includeCSSfile("https://raw.githubusercontent.com/coolalexhuang/bite-project/master/extension/styles/consoles.css");
         
-    newItem('#LoginText', 'Login', 'https://www.baidu.com', 1);
+    newItem('#LoginText123', 'Login', 'https://www.baidu.com', 1);
     newItem('#mdcMostViewedIssuersHead', 'Most Viwed Issuer Head', 'https://www.baidu.com', 1);
     newItem('#kw', 'Quick Search', 'https://www.baidu.com', 1);
     
