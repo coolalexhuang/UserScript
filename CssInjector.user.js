@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CssInjector
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2 
 // @description  try to take over the world!
 // @author       Alex Huang
 // @match        https://www.moodys.com/*
