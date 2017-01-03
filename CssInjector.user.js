@@ -24,7 +24,8 @@
         var w = $ele.outerWidth();
         var h = $ele.outerHeight();
         var $highlight = $('<div id="highlight" style="position: absolute; opacity: 0.4; z-index: 50000; background-color: red; left: ' + l + 'px; top: ' + t + 'px; width: ' + w + 'px; height: ' + h + 'px;"></div>');
-        var $overlay = $('<div id="overlay" style="display: none; background-color: white; position: absolute; left: ' + l + 'px; top: ' + (t + h) + 'px; width: ' + w + 'px; "><div><a href="' + href +'" target="blank">' + title + '</a></div></div>');
+        //var $overlay = $('<div id="overlay" style="display: none; background-color: white; position: absolute; left: ' + l + 'px; top: ' + (t + h) + 'px; width: ' + w + 'px; "><div><a href="' + href +'" target="blank">' + title + '</a></div></div>');
+        var $overlay = $('<div id="overlay" style="display: none; background-color: white; position: absolute; left: ' + l + 'px; top: ' + (t + h) + 'px; width: ' + w + 'px; "><div><a href="' + href +'" target="blank">' + title + '</a></div><p><div><a href="http://www.baidu.com" target="blank">Edit</a>&nbsp;&nbsp;&nbsp;<a href="http://www.baidu.com" target="blank">Add</a></div></div>');
 
         $highlight.hover(function(){
             $overlay.show();
